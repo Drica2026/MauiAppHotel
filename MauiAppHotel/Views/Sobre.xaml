@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre">
+
+    <VerticalStackLayout Padding="20"
+                         Spacing="8">
+
+        <Label 
+            Text="Sobre o aplicativo"
+            HorizontalTextAlignment="Center"
+            FontFamily="ComicReliefbold"
+            FontSize="25"
+            Margin="0, 30, 0, 30" />
+
+        <Label
+                FontSize="14"
+                HorizontalTextAlignment="Justify"
+                Text="Este aplicativo foi desenvolvido como atividade do curso técnico de desenvolvimento de sistemas - EaD - do Centro Paula Souza, para treinar o uso de imagens e componentes de interface gráfica com uso do .NET MAUI. "/>
+
+        <Label
+            Text="Objetivo do aplicativo"
+            FontFamily="ComicReliefbold"
+            FontSize="18"
+            Margin="0, 20, 0, 5"/>
+
+        <Label
+                FontSize="14"
+                HorizontalTextAlignment="Justify"
+                Text="Desenvolver um sistema de agendamento de hospedagem."/>
+
+        <Label
+             Text="Data do Desenvolvimento"
+             FontFamily="ComicReliefbold"
+             FontSize="18"
+             Margin="0, 20, 0, 5"/>
+
+        <Label
+                FontSize="14"
+                HorizontalTextAlignment="Justify"
+                Text="Novembro de 2026." />
+
+        <Label
+            Text="Versão"
+            FontFamily="ComicReliefbold"
+            FontSize="18"
+            Margin="0, 20, 0, 5" />
+
+        <Label
+                FontSize="14"
+                HorizontalTextAlignment="Justify"
+                Text="Primeira versão." />
+
+    </VerticalStackLayout>
+</ContentPage>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
