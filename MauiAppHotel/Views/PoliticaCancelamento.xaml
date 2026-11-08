@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.PoliticaCancelamento"
+             Title="PoliticaCancelamento">
+    
+        <VerticalStackLayout Padding="20"
+                             Spacing="8">
+
+        <Label Text="Politica de Cancelamento"
+                   HorizontalTextAlignment="Center"
+                   FontFamily="ComicReliefbold"
+                   FontSize="20"
+                    Margin="0, 30, 0, 30" />
+
+        <Label Text="- A reserva poderá ser cancelada até 07 dias antes da data do checkin, sem custo adicional."
+           FontSize="14"
+           HorizontalTextAlignment="Justify" />
+
+        <Label Text="- Não haverá devolução do valor contratado caso o cancelamento seja realizado até 07 dias antes da data do checkin. "
+               FontSize="14"
+               HorizontalTextAlignment="Justify" />
+
+
+    </VerticalStackLayout>
+</ContentPage>
+

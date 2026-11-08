@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Localizacao"
+             Title="Localizacao">
+    
+    <VerticalStackLayout Padding="20"
+                         Spacing="8">
+
+        <Label 
+            Text="Localização"
+            HorizontalTextAlignment="Center"
+            FontFamily="ComicReliefbold"
+            FontSize="25"
+            Margin="0, 30, 0, 30" />
+
+        <Label Text="Endereço"
+               FontFamily="ComicReliefbold"
+               FontSize="18"
+               Margin="0, 20, 0, 5" />
+
+            <Label Text="Rua da Flores, S/N. Bairro: Jardim / CEP: 00000-000"
+                   FontSize="14"
+                   HorizontalTextAlignment="Justify" />
+
+        <Label Text="Mapa"
+               FontFamily="ComicReliefbold"
+               FontSize="18"
+               Margin="0, 20, 0, 5" />
+
+            <Label Text="Inserir mapa"
+                   FontSize="14"
+                   HorizontalTextAlignment="Justify" />
+        
+    </VerticalStackLayout>
+</ContentPage>
+

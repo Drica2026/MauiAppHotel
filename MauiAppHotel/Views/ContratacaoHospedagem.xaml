@@ -52,15 +52,9 @@
                         BackgroundColor= "{StaticResource White}"
                         Margin="0, 5, 0, 15">
 
-                    <Picker x:Name="pck_quarto" >
+                    <Picker x:Name="pck_quarto" 
+                            ItemDisplayBinding="{Binding Nome}" />
 
-                        <Picker.Items>
-                            <x:String>Quarto Duplo</x:String>
-                            <x:String>Quarto Triplo</x:String>
-                            <x:String>Quarto Quadruplo</x:String>
-                            <x:String>Suíte Master</x:String>
-                        </Picker.Items>
-                    </Picker>
                 </Border>
 
                 <Label Text="Selecione a data da viagem: "
@@ -77,15 +71,14 @@
                           RowSpacing="10" Padding="10">
 
                         <Label Grid.Row="0" Grid.Column="0" Text="Data Check-in:" FontAttributes="Italic, Bold" />
-                        <DatePicker x:Name="dtpck_checkin" Grid.Row="0" Grid.Column="1" BackgroundColor="White" />
+                        <DatePicker x:Name="dtpck_checkin" Grid.Row="0" DateSelected="dtpck_checkin_DateSelected" Grid.Column="1" BackgroundColor="White" />
 
                         <Label Grid.Row="1" Grid.Column="0" Text="Data Check-out:" FontAttributes="Italic,Bold" />
                         <DatePicker x:Name="dtpck_checkout" Grid.Row="1" Grid.Column="1" BackgroundColor="White" />
-
                     </Grid>
                 </Border>
 
-                <Button Text="Calcular" />
+                <Button Text="Calcular" Clicked="Button_Clicked" />
 
                 <ImageButton
                             Source="info1.png"
@@ -93,7 +86,7 @@
                             HeightRequest="35"
                             HorizontalOptions="End"
                             Margin="10"
-                            Clicked="Button_Clicked" />
+                            Clicked="ImageButton_Clicked" />
 
             </VerticalStackLayout>
         </Border>
